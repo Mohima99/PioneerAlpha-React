@@ -1,0 +1,188 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* Navigation */
+
+.ul-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;;
+  align-items: center;
+}
+
+.li-nav {
+  float: left;
+  
+}
+
+.li-nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.li-nav a:hover {
+  background-color: #111;
+}
+
+h1{
+  text-align: center;
+  color: bisque;
+}
+
+
+/* Category */
+.img-cate{
+  width: 100%;
+  height: 40em;
+  opacity: 0.5;
+}
+.container-cate {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.largeT{
+  font-size: 50px;
+  font-family: 'Times New Roman';
+}
+
+/* Latest News */
+
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.main_content{
+  row-gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.card_img{
+  box-shadow: 0 4px 25px rgba(14, 36, 49, .15);
+  border-radius: .5rem;
+  overflow: hidden;
+
+}
+.card_img img{
+  transition: 1s;
+  cursor: pointer;
+}
+.card_img img:hover{
+  box-shadow: 0 4px 8px 0 rgba(194, 146, 146, 0.829);
+  
+}
+.card:hover{
+  transform: rotateY(10deg);
+  box-shadow: 0 4px 8px 0 rgba(194, 146, 146, 0.829);
+  transition: ease-in-out;
+}
+.text-LN{
+  color: white;
+}
+.text-tLN{
+  color: rgb(180, 226, 216);
+  transition: 1s;
+  cursor: pointer;
+}
+.text-tLN:hover{
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(194, 146, 146, 0.829);
+  
+}
+.lfont{
+  font-style: oblique;
+  font-size: 50px;
+}
+
+
+/* Footer */
+.footer{
+  overflow-x: hidden;
+  padding: 4vmin 18vmin;
+}
+h1{
+color: bisque;
+}
+h4{
+color: bisque;
+}
+.rightF {
+  position: absolute;
+  color: white;
+  right: 0px;
+  width: 200px;
+  padding: 0px;
+}
+.leftF {
+  position: absolute;
+  color: white;
+  left: 80px;
+  width: 300px;
+  padding: 10px;
+}
+
+.centerL {
+  position: absolute;
+  color: white;
+  right: 400px;
+  width: 200px;
+  padding: 0px;
+}
+
+.centerR {
+  position: absolute;
+  color: white;
+  right: 200px;
+  width: 200px;
+  padding: 0px;
+}
